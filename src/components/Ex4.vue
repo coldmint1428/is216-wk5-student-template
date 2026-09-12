@@ -28,8 +28,8 @@ function deleteItem(index){
         </li>
     </ul>
 
-    <input type="text" v-model="add">
-    <button type="button" v-on:click="addItem">Add!</button>
+    <input type="text" v-model="add" v-on:keyup.enter="addItem">
+<button type="button" v-on:click="addItem">Add!</button>
 
     
    
